@@ -1,0 +1,16 @@
+Package: CaliMRCT
+Title: Calibration Weighting Estimation of Treatment Effect Heterogeneity for MRCTs
+Version: 1.0
+Authors@R: c(
+    person("Haotian", "Zhuang", email = "haotian.zhuang@duke.edu", role = c("aut", "cre")),
+    person("Xiaofei", "Wang", email = "xiaofei.wang@duke.edu", role = "aut"))
+Description: CaliMRCT is an R package to assess treatment effect heterogeneity for multi-regional randomized clinical trials.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    nleqslv
+Depends: 
+    R (>= 2.10)
